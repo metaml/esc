@@ -28,6 +28,7 @@ clean: ## clean
 
 clobber: clean ## cleanpq
 	rm -rf dist-newstyle
+	rm -rf tmp/*
 
 run: ## run BIN, e.g. make run BIN=<binary>
 	cabal $(OPT) run $(BIN) -- $(ARG)
