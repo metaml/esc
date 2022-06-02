@@ -46,7 +46,7 @@ help: ## help
 	-@cabal --version
 	-@hlint --version
 
-es-client: ## generate es client code
+openapi-client: ## generate es client code
 	@rm -rf tmp/src
 	./bin/openapi3-code-generator-exe \
 		--do-not-generate-stack-project \
@@ -56,7 +56,7 @@ es-client: ## generate es client code
 		--specification=etc/es/es-v1-spec.yaml
 	cp -a tmp/src/Model src
 
-openapi:
+openapi-spec-yaml:
 	./bin/openapi-generator-cli generate \
 		--input-spec=etc/es/es-v1-spec.json \
 		--generator-name haskell-http-client \
