@@ -41,7 +41,7 @@ update: ## update project depedencies
 
 help: ## help
 	-@grep --extended-regexp '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) \
-	  | sed 's/^Makefile://1' \a
+	  | sed 's/^Makefile://1' \
 	  | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-18s\033[0m %s\n", $$1, $$2}'
 	-@ghc --version
 	-@cabal --version
