@@ -1,0 +1,9 @@
+module Model/Private/Elasticsearch.Types.TransientApmPlanConfiguration where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Model/Private/Elasticsearch.Common
+data TransientApmPlanConfiguration
+instance Show TransientApmPlanConfiguration
+instance Eq TransientApmPlanConfiguration
+instance FromJSON TransientApmPlanConfiguration
+instance ToJSON TransientApmPlanConfiguration

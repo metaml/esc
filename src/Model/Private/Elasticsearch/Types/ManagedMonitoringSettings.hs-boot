@@ -1,0 +1,9 @@
+module Model/Private/Elasticsearch.Types.ManagedMonitoringSettings where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Model/Private/Elasticsearch.Common
+data ManagedMonitoringSettings
+instance Show ManagedMonitoringSettings
+instance Eq ManagedMonitoringSettings
+instance FromJSON ManagedMonitoringSettings
+instance ToJSON ManagedMonitoringSettings

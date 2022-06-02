@@ -1,0 +1,14 @@
+module Model/Private/Elasticsearch.Types.CreateExtensionRequest where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Model/Private/Elasticsearch.Common
+data CreateExtensionRequest
+instance Show CreateExtensionRequest
+instance Eq CreateExtensionRequest
+instance FromJSON CreateExtensionRequest
+instance ToJSON CreateExtensionRequest
+data CreateExtensionRequestExtensionType
+instance Show CreateExtensionRequestExtensionType
+instance Eq CreateExtensionRequestExtensionType
+instance FromJSON CreateExtensionRequestExtensionType
+instance ToJSON CreateExtensionRequestExtensionType

@@ -1,0 +1,9 @@
+module Model/Private/Elasticsearch.Types.DeploymentLoggingSettings where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Model/Private/Elasticsearch.Common
+data DeploymentLoggingSettings
+instance Show DeploymentLoggingSettings
+instance Eq DeploymentLoggingSettings
+instance FromJSON DeploymentLoggingSettings
+instance ToJSON DeploymentLoggingSettings

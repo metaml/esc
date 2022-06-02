@@ -1,0 +1,9 @@
+module Model/Private/Elasticsearch.Types.EnterpriseSearchNodeTypes where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Model/Private/Elasticsearch.Common
+data EnterpriseSearchNodeTypes
+instance Show EnterpriseSearchNodeTypes
+instance Eq EnterpriseSearchNodeTypes
+instance FromJSON EnterpriseSearchNodeTypes
+instance ToJSON EnterpriseSearchNodeTypes

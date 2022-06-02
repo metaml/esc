@@ -1,0 +1,9 @@
+module Model/Private/Elasticsearch.Types.DeploymentTemplateReference where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Model/Private/Elasticsearch.Common
+data DeploymentTemplateReference
+instance Show DeploymentTemplateReference
+instance Eq DeploymentTemplateReference
+instance FromJSON DeploymentTemplateReference
+instance ToJSON DeploymentTemplateReference

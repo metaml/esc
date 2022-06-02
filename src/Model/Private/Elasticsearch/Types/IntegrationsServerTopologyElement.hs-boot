@@ -1,0 +1,9 @@
+module Model/Private/Elasticsearch.Types.IntegrationsServerTopologyElement where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Model/Private/Elasticsearch.Common
+data IntegrationsServerTopologyElement
+instance Show IntegrationsServerTopologyElement
+instance Eq IntegrationsServerTopologyElement
+instance FromJSON IntegrationsServerTopologyElement
+instance ToJSON IntegrationsServerTopologyElement

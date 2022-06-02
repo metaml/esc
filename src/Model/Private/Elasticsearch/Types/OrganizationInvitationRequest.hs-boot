@@ -1,0 +1,9 @@
+module Model/Private/Elasticsearch.Types.OrganizationInvitationRequest where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Model/Private/Elasticsearch.Common
+data OrganizationInvitationRequest
+instance Show OrganizationInvitationRequest
+instance Eq OrganizationInvitationRequest
+instance FromJSON OrganizationInvitationRequest
+instance ToJSON OrganizationInvitationRequest

@@ -1,0 +1,9 @@
+module Model/Private/Elasticsearch.Types.IntegrationsServerPayload where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Model/Private/Elasticsearch.Common
+data IntegrationsServerPayload
+instance Show IntegrationsServerPayload
+instance Eq IntegrationsServerPayload
+instance FromJSON IntegrationsServerPayload
+instance ToJSON IntegrationsServerPayload

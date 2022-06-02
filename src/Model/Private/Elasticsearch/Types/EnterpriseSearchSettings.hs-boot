@@ -1,0 +1,9 @@
+module Model/Private/Elasticsearch.Types.EnterpriseSearchSettings where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Model/Private/Elasticsearch.Common
+data EnterpriseSearchSettings
+instance Show EnterpriseSearchSettings
+instance Eq EnterpriseSearchSettings
+instance FromJSON EnterpriseSearchSettings
+instance ToJSON EnterpriseSearchSettings

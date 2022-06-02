@@ -1,0 +1,9 @@
+module Model/Private/Elasticsearch.Types.TrafficFilterRulesetRequest where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Model/Private/Elasticsearch.Common
+data TrafficFilterRulesetRequest
+instance Show TrafficFilterRulesetRequest
+instance Eq TrafficFilterRulesetRequest
+instance FromJSON TrafficFilterRulesetRequest
+instance ToJSON TrafficFilterRulesetRequest

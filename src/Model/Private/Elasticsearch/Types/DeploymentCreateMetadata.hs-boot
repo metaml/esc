@@ -1,0 +1,9 @@
+module Model/Private/Elasticsearch.Types.DeploymentCreateMetadata where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Model/Private/Elasticsearch.Common
+data DeploymentCreateMetadata
+instance Show DeploymentCreateMetadata
+instance Eq DeploymentCreateMetadata
+instance FromJSON DeploymentCreateMetadata
+instance ToJSON DeploymentCreateMetadata

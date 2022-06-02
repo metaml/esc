@@ -1,0 +1,9 @@
+module Model/Private/Elasticsearch.Types.AppSearchTopologyElement where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Model/Private/Elasticsearch.Common
+data AppSearchTopologyElement
+instance Show AppSearchTopologyElement
+instance Eq AppSearchTopologyElement
+instance FromJSON AppSearchTopologyElement
+instance ToJSON AppSearchTopologyElement

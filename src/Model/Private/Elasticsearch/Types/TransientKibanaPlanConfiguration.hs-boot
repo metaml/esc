@@ -1,0 +1,9 @@
+module Model/Private/Elasticsearch.Types.TransientKibanaPlanConfiguration where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Model/Private/Elasticsearch.Common
+data TransientKibanaPlanConfiguration
+instance Show TransientKibanaPlanConfiguration
+instance Eq TransientKibanaPlanConfiguration
+instance FromJSON TransientKibanaPlanConfiguration
+instance ToJSON TransientKibanaPlanConfiguration

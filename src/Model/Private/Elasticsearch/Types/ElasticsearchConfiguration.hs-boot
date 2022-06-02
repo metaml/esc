@@ -1,0 +1,9 @@
+module Model/Private/Elasticsearch.Types.ElasticsearchConfiguration where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Model/Private/Elasticsearch.Common
+data ElasticsearchConfiguration
+instance Show ElasticsearchConfiguration
+instance Eq ElasticsearchConfiguration
+instance FromJSON ElasticsearchConfiguration
+instance ToJSON ElasticsearchConfiguration

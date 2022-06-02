@@ -1,0 +1,9 @@
+module Model/Private/Elasticsearch.Types.ElasticsearchClusterTrustSettings where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Model/Private/Elasticsearch.Common
+data ElasticsearchClusterTrustSettings
+instance Show ElasticsearchClusterTrustSettings
+instance Eq ElasticsearchClusterTrustSettings
+instance FromJSON ElasticsearchClusterTrustSettings
+instance ToJSON ElasticsearchClusterTrustSettings

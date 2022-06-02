@@ -1,0 +1,9 @@
+module Model/Private/Elasticsearch.Types.ElasticsearchClusterPlan where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Model/Private/Elasticsearch.Common
+data ElasticsearchClusterPlan
+instance Show ElasticsearchClusterPlan
+instance Eq ElasticsearchClusterPlan
+instance FromJSON ElasticsearchClusterPlan
+instance ToJSON ElasticsearchClusterPlan

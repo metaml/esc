@@ -1,0 +1,14 @@
+module Model/Private/Elasticsearch.Types.RestoreSnapshotConfiguration where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Model/Private/Elasticsearch.Common
+data RestoreSnapshotConfiguration
+instance Show RestoreSnapshotConfiguration
+instance Eq RestoreSnapshotConfiguration
+instance FromJSON RestoreSnapshotConfiguration
+instance ToJSON RestoreSnapshotConfiguration
+data RestoreSnapshotConfigurationStrategy
+instance Show RestoreSnapshotConfigurationStrategy
+instance Eq RestoreSnapshotConfigurationStrategy
+instance FromJSON RestoreSnapshotConfigurationStrategy
+instance ToJSON RestoreSnapshotConfigurationStrategy

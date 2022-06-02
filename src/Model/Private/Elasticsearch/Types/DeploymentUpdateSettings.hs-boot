@@ -1,0 +1,9 @@
+module Model/Private/Elasticsearch.Types.DeploymentUpdateSettings where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Model/Private/Elasticsearch.Common
+data DeploymentUpdateSettings
+instance Show DeploymentUpdateSettings
+instance Eq DeploymentUpdateSettings
+instance FromJSON DeploymentUpdateSettings
+instance ToJSON DeploymentUpdateSettings

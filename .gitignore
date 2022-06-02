@@ -1,0 +1,6 @@
+dist-newstyle
+elk
+pom.xml
+result
+tmp/**
+.DS_Store

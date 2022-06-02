@@ -1,0 +1,9 @@
+module Model/Private/Elasticsearch.Types.RestoreSnapshotRepoConfiguration where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Model/Private/Elasticsearch.Common
+data RestoreSnapshotRepoConfiguration
+instance Show RestoreSnapshotRepoConfiguration
+instance Eq RestoreSnapshotRepoConfiguration
+instance FromJSON RestoreSnapshotRepoConfiguration
+instance ToJSON RestoreSnapshotRepoConfiguration

@@ -1,0 +1,14 @@
+module Model/Private/Elasticsearch.Types.ApmPlanControlConfiguration where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Model/Private/Elasticsearch.Common
+data ApmPlanControlConfiguration
+instance Show ApmPlanControlConfiguration
+instance Eq ApmPlanControlConfiguration
+instance FromJSON ApmPlanControlConfiguration
+instance ToJSON ApmPlanControlConfiguration
+data ApmPlanControlConfigurationClusterReboot
+instance Show ApmPlanControlConfigurationClusterReboot
+instance Eq ApmPlanControlConfigurationClusterReboot
+instance FromJSON ApmPlanControlConfigurationClusterReboot
+instance ToJSON ApmPlanControlConfigurationClusterReboot

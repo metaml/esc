@@ -1,0 +1,14 @@
+module Model/Private/Elasticsearch.Types.TrafficFilterEgressRule where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Model/Private/Elasticsearch.Common
+data TrafficFilterEgressRule
+instance Show TrafficFilterEgressRule
+instance Eq TrafficFilterEgressRule
+instance FromJSON TrafficFilterEgressRule
+instance ToJSON TrafficFilterEgressRule
+data TrafficFilterEgressRuleProtocol
+instance Show TrafficFilterEgressRuleProtocol
+instance Eq TrafficFilterEgressRuleProtocol
+instance FromJSON TrafficFilterEgressRuleProtocol
+instance ToJSON TrafficFilterEgressRuleProtocol

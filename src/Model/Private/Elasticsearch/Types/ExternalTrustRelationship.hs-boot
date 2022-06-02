@@ -1,0 +1,9 @@
+module Model/Private/Elasticsearch.Types.ExternalTrustRelationship where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Model/Private/Elasticsearch.Common
+data ExternalTrustRelationship
+instance Show ExternalTrustRelationship
+instance Eq ExternalTrustRelationship
+instance FromJSON ExternalTrustRelationship
+instance ToJSON ExternalTrustRelationship

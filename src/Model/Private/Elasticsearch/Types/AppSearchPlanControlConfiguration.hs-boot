@@ -1,0 +1,14 @@
+module Model/Private/Elasticsearch.Types.AppSearchPlanControlConfiguration where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Model/Private/Elasticsearch.Common
+data AppSearchPlanControlConfiguration
+instance Show AppSearchPlanControlConfiguration
+instance Eq AppSearchPlanControlConfiguration
+instance FromJSON AppSearchPlanControlConfiguration
+instance ToJSON AppSearchPlanControlConfiguration
+data AppSearchPlanControlConfigurationClusterReboot
+instance Show AppSearchPlanControlConfigurationClusterReboot
+instance Eq AppSearchPlanControlConfigurationClusterReboot
+instance FromJSON AppSearchPlanControlConfigurationClusterReboot
+instance ToJSON AppSearchPlanControlConfigurationClusterReboot

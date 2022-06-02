@@ -1,0 +1,9 @@
+module Model/Private/Elasticsearch.Types.DeploymentMetricsSettings where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Model/Private/Elasticsearch.Common
+data DeploymentMetricsSettings
+instance Show DeploymentMetricsSettings
+instance Eq DeploymentMetricsSettings
+instance FromJSON DeploymentMetricsSettings
+instance ToJSON DeploymentMetricsSettings
